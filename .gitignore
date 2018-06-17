@@ -6,3 +6,4 @@ project/target/
 src/main/resources/specs/
 .idea
 node_modules
+gen
