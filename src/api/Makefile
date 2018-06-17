@@ -6,7 +6,7 @@ default: dir
     --js_out=import_style=commonjs,binary:$(GEN_DIR) \
     --ts_out=service=true:$(GEN_DIR) \
     -I ./protobuf \
-    protobuf/*.proto
+    protobuf/*.proto protobuf/**/*.proto protobuf/*/*/*.proto
 
 dir:
 	mkdir -p $(GEN_DIR)
