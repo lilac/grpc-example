@@ -4,3 +4,5 @@ project/target/
 *.class
 *.log
 src/main/resources/specs/
+.idea
+node_modules
