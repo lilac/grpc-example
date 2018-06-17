@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "async": "^2.6.1",
+    "grpc": "^1.13.0-pre1",
+    "grpc-dynamic-gateway": "^0.3.4"
+  },
+  "name": "grpc-gateway",
+  "version": "1.0.0",
+  "description": "Dynamic gRpc gateway",
+  "main": "index.js",
+  "author": "lilac",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "grpcc": "^1.1.3"
+  }
+}
