@@ -7,3 +7,4 @@ src/main/resources/specs/
 .idea
 node_modules
 gen
+build
