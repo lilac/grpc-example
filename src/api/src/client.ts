@@ -1,5 +1,5 @@
-import { RouteGuideClient } from "./gen/route_guide_pb_service";
-import { Point, Rectangle, Feature } from "./gen/route_guide_pb";
+import { RouteGuideClient } from "../gen/route_guide_pb_service";
+import { Point, Rectangle, Feature } from "../gen/route_guide_pb";
 import { ProtobufMessage } from "grpc-web-client/dist/message";
 
 const USE_TLS: boolean = false
